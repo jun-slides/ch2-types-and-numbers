@@ -293,7 +293,7 @@ layout: quote
 # More exercises
     
 
-1. Write the code to the number of times 5 goes evenly into 18.
+1. Write the code to find the number of times 5 goes evenly into 18.
 
 2. Write the code to find the remainder when dividing 20 by 3.
 

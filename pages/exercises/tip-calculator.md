@@ -14,6 +14,9 @@ Calculates the tip and total amount based on bill and tip percentage entered by 
   ></iframe>
 </div>
 
+<v-click>
+[TRY IT] Try it with a $50 bill and 20% tip.
+</v-click>
 
 ---
 layout: quote
@@ -66,6 +69,6 @@ print(f"Total: ${total:.2f}")
 ```
 
 
-[TRY IT] Try it with a $50 bill and 20% tip.
-
+<v-click>
 [MODIFY] Add a line that shows what the tip would be at 15%, 18%, and 20%.
+</v-click>

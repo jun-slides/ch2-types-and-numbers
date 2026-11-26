@@ -43,7 +43,6 @@ layout: quote
     
 ```python
 # take input for a 2 digit number
-two_digit_number = input("Type a 2 digit number: ")
 
 # extract each digit from two_digit_number 
 
@@ -58,8 +57,141 @@ two_digit_number = input("Type a 2 digit number: ")
 layout: quote
 ---
     
-# Solution
+# Solution Animation
     
+````md magic-move {lines:true}
+```python {*|1}
+two_digit_number = input("Type a 2 digit number: ")
+
+first_digit = int(two_digit_number[0])
+second_digit = int(two_digit_number[1])
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {1|3}
+two_digit_number = '75'
+
+first_digit = int(two_digit_number[0])
+second_digit = int(two_digit_number[1])
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {3}
+two_digit_number = '75'
+
+first_digit = int('75'[0])
+second_digit = int(two_digit_number[1])
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {3}
+two_digit_number = '75'
+
+first_digit = int('7')
+second_digit = int(two_digit_number[1])
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {3|4}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = int(two_digit_number[1])
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {4}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = int('75'[1])
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {4}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = int('5')
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {4|6-7}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = 5
+
+# Add the two integers together
+digit_sum = first_digit + second_digit
+
+print(digit_sum)
+```
+
+```python {6-7}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = 5
+
+# Add the two integers together
+digit_sum = 7 + 5
+
+print(digit_sum)
+```
+
+```python {6-7|9}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = 5
+
+# Add the two integers together
+digit_sum = 12
+
+print(digit_sum)
+```
+
+```python {9}
+two_digit_number = '75'
+
+first_digit = 7
+second_digit = 5
+
+# Add the two integers together
+digit_sum = 12
+
+print(12)
+```
+
 ```python
 two_digit_number = input("Type a 2 digit number: ")
 
@@ -71,6 +203,5 @@ digit_sum = first_digit + second_digit
 
 print(digit_sum)
 ```
-    
 
-[TRY IT] Type 23 and see the output.
+````

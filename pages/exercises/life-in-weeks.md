@@ -32,6 +32,8 @@ layout: quote
 4. Print the result
 
 
+<v-click>
+
 Example 
 
 - Input `56`
@@ -42,6 +44,7 @@ You have 1768 weeks left.
 Use them wisely 😉.
 ```
 
+</v-click>
 
 ---
 layout: quote
@@ -80,5 +83,3 @@ weeks = years * 52
 print(f"You have {weeks} weeks left.")
 print("Use them wisely 😉.")
 ```
-    
-[MODIFY] Add remaining days, hours, minutes.

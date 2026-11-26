@@ -36,6 +36,11 @@ layout: quote
 
 ```
 
+---
+layout: quote
+---
+
+
     
 # Solution:
     
