@@ -23,11 +23,12 @@ layout: quote
 ---
   
 # Instructions
-    1. Ask for the bill amount
-    2. Ask for the tip percentage
-    3. Calculate the tip amount
-    4. Calculate the total (bill + tip)
-    5. Print results
+
+1. Ask for the bill amount
+2. Ask for the tip percentage
+3. Calculate the tip amount
+4. Calculate the total (bill + tip)
+5. Print results
 
 ---
 layout: quote
