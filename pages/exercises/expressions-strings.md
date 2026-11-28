@@ -682,152 +682,13 @@ a + (b + c) * 2   # "ho-go-go"
 ````
 
 
----
-layout: quote
----
-
-# With Methods:
-
-````python
-animal = "cat"
-sound = "meow"
-````
-
-1. `animal.upper()`
-2. `sound.title() + "!"`
-3. `animal + " says " + sound.upper()`
 
 
 ---
 layout: quote
 ---
 
-# Methods: Exercise 1
-
-````md magic-move {lines:true}
-```python {*|4}
-animal = "cat"
-sound = "meow"
-
-animal.upper()
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"cat".upper()
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"CAT"
-```
-
-```python {*}
-animal = "cat"
-sound = "meow"
-
-animal.upper()   # "CAT"
-```
-````
-
-
----
-layout: quote
----
-
-# Methods: Exercise 2
-
-````md magic-move {lines:true}
-```python {*|4}
-animal = "cat"
-sound = "meow"
-
-sound.title() + "!"
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"meow".title() + "!"
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"Meow" + "!"
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"Meow!"
-```
-
-```python {*}
-animal = "cat"
-sound = "meow"
-
-sound.title() + "!"   # "Meow!"
-```
-````
-
-
----
-layout: quote
----
-
-# Methods: Exercise 3
-
-````md magic-move {lines:true}
-```python {*|4}
-animal = "cat"
-sound = "meow"
-
-animal + " says " + sound.upper()
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"cat" + " says " + "meow".upper()
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"cat" + " says " + "MEOW"
-```
-
-```python {4}
-animal = "cat"
-sound = "meow"
-
-"cat says MEOW"
-```
-
-```python {*}
-animal = "cat"
-sound = "meow"
-
-animal + " says " + sound.upper()   # "cat says MEOW"
-```
-````
-
-
----
-layout: quote
----
-
-# Methods and Parentheses:
+# Methods Exercises:
 
 ````python
 animal = "cat"
@@ -843,7 +704,7 @@ sound = "meow"
 layout: quote
 ---
 
-# Methods and Parentheses: Exercise 1
+# Methods: Exercise 1
 
 ````md magic-move {lines:true}
 ```python {*|4}
@@ -887,7 +748,7 @@ sound = "meow"
 layout: quote
 ---
 
-# Methods and Parentheses: Exercise 2
+# Methods: Exercise 2
 
 ````md magic-move {lines:true}
 ```python {*|4}
@@ -931,7 +792,7 @@ animal + sound.upper()   # "catMEOW"
 layout: quote
 ---
 
-# Methods and Parentheses: Exercise 3
+# Methods: Exercise 3
 
 ````md magic-move {lines:true}
 ```python {*|4}
