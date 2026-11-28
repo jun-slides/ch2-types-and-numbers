@@ -63,7 +63,7 @@ The backslash tells Python: *treat the next character as literal text, not as st
 layout: quote
 ---
 
-# The `\n` Newline
+# The \n Newline
 
 `\n` is an **escape sequence**. It represents a line break:
 
@@ -95,7 +95,7 @@ c
 layout: quote
 ---
 
-# `print()` Ends with `\n`
+# print() Ends with \n
 
 Every `print()` automatically adds `\n` at the end. You can change this with `end=`:
 

@@ -153,8 +153,8 @@ layout: quote
 # Division Always Returns a Float
 
 ```python
-print(10 / 2)    # 5.0 (not 5)
-print(10 // 2)   # 5 (floor division gives integer)
+10 / 2    # 5.0 (not 5)
+10 // 2   # 5 (floor division gives integer)
 ```
 
 ---

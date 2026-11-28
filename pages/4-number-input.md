@@ -26,7 +26,7 @@ layout: quote
 ---
 
 
-# **Fix it with `int()` or `float()`:**
+# Fix it with int() or float():
 
 
 <v-clicks>

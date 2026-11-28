@@ -1,0 +1,33 @@
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+h1 .emoji {
+  -webkit-text-fill-color: initial;
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+}
+
+
+
+/* brighter, bolder text */
+.slidev-code {
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.slidev-code-wrapper,
+.slidev-layout pre {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

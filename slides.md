@@ -20,7 +20,6 @@ types · arithmetic · type-conversion · numerical-input · exercises
 src: ./pages/0-what-we-are-learning.md
 ---
 
-expressions.md            
 
 
 ---
@@ -35,6 +34,17 @@ src: ./pages/2-numbers-in-python.md
 ---
 src: ./pages/exercises/expressions.md
 ---
+
+
+---
+src: ./pages/exercises/expressions-functions.md
+---
+
+
+---
+src: ./pages/exercises/expressions-strings.md
+---
+
 
 
 ---

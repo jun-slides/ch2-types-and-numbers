@@ -6,7 +6,6 @@ layout: quote
 
 Not all data is the same. Python has different **data types** for different kinds of information.
 
-### String, Integer and Float
 
 <v-clicks>
 
